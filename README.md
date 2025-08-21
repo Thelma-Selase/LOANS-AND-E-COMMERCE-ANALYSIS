@@ -78,8 +78,7 @@ Revenue is heavily skewed. The Top 5 customers contribute 28% (25M UGX) of total
 
 Retail accounts for 85.96% of loan defaults, suggesting a strong link between retail purchases and loan repayment struggles.
 
-
-<img width="665" height="371" alt="Screenshot 2025-08-08 211940" src="https://github.com/user-attachments/assets/38b051b6-52d3-4043-9e44-47293ff6dae3" />
+<img width="595" height="334" alt="Screenshot 2025-08-21 183414" src="https://github.com/user-attachments/assets/df739f55-ffb5-4381-afe1-ce5a10eb69aa" />
 
 Over a 6-month period, Xente issued 1,483 loans, generating an income of 17.58M UGX. However, 178 of these loans defaulted, leading to a financial loss of 3.25M UGX.
 
