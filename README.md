@@ -1,10 +1,21 @@
 # LOANS-AND-E-COMMERCE-ANALYSIS
 
+## 📑 TABLE OF CONTENTS  
+
+- [OVERVIEW](#overview)  
+- [DATA SOURCE](#data-source)  
+- [DATA PROCESSING](#data-processing)  
+- [SKILLS DEMONSTRATED](#skills-demonstrated)  
+- [OBJECTIVES/PROBLEM STATEMENT](#objectivesproblem-statement)  
+- [DATA ANALYSIS AND VISUALIZATION](#data-analysis-and-visualization)  
+- [INSIGHTS](#insights)  
+- [RECOMMENDATIONS](#recommendations)  
+
 ## OVERVIEW
 Xente is a Ugandan e-commerce and financial services company that provides a platform for individuals and organizations to make and receive payments, shop and pay for goods and services online, and access loans and credit facilities.
 This project seeks to improve the efficiency, profitability, and sustainability of Xente's services, especially loan products. It analyzes loan performance to uncover repayment patterns, default risks, and customer behavior, identifies key trends across Xente’s services, and generates actionable insights to improve loan recovery and support data-driven decision making. 
 
-## Source of data
+## DATA SOURCE
 Blossom Academy, final project
 
 ## TOOLS
@@ -12,7 +23,7 @@ Microsoft Power Query – Utilized for data cleaning, transformation, and struct
 
 Microsoft Power BI – Employed for exploratory data analysis (EDA) and to create visualizations
 
-## Data Processing
+## DATA PROCESSING
 
 Duplicate Check – Verified the dataset contained no duplicate records, ensuring data integrity.
 
@@ -24,7 +35,7 @@ Feature Engineering (Loan Classification) – Created a new categorical feature 
 
 Data Validation – Conducted preliminary checks to confirm data consistency, eg, no negative loan values, valid date ranges, and reasonable loan amounts.
 
-## Skills demonstrated
+## SKILLS DEMONSTRATED
 Data Cleaning and Preparation – handling missing values, correcting inconsistencies, and ensuring data quality for accurate analysis.
 
 Exploratory Data Analysis (EDA) – using descriptive statistics and visualizations to uncover trends, patterns, and anomalies in Xente’s financial and transactional data.
@@ -37,7 +48,20 @@ Insight Generation and Storytelling – translating raw data into meaningful bus
 
 Problem-Solving and Critical Thinking – identifying inefficiencies and proposing solutions to optimize financial services.
 
-## Data Analysis
+## OBJECTIVES/PROBLEM STATEMENT
+
+Understand revenue streams across Xente’s e-commerce products to see which ones drive growth and which ones underperform.
+
+Assess loan performance by looking at repayment trends and default patterns to gauge financial risk.
+
+Break down loans into categories (basic, premium, platinum) to compare repayment behavior across different loan sizes.
+
+Examine customer contributions to revenue to identify reliance on key clients.
+
+Explore connections between loan activity and product usage, such as how retail services may be linked to loan defaults.
+
+
+## DATA ANALYSIS AND VISUALIZATION
 
 <img width="593" height="334" alt="Screenshot 2025-08-20 110712" src="https://github.com/user-attachments/assets/b7725139-32d4-465c-9ff4-8d3af8cf631f" />
 
@@ -74,7 +98,7 @@ A steady increase in loan activity over the months indicates a regular expansion
 
 A correlation is observed between loan defaulters and retail services, implying that at least half of retail services users default on their loans. 
 
-## Insights
+## INSIGHTS
 #### Revenue Concentration in Retail
 
 Retail dominates Xente’s e-commerce portfolio, contributing 90% of total revenue (70.12M UGX) despite only 237 purchases.
@@ -99,7 +123,7 @@ Defaults are concentrated in Premium (10K–50K) and Platinum (>50K) loans, sugg
 
 A strong correlation exists between loan defaults and retail services, with 85.96% of defaults tied to retail purchases. This suggests that customers relying on credit for retail transactions may face repayment struggles, increasing credit risk.
 
-## Recommendations
+## RECOMMENDATIONS
 
 Diversify Revenue Streams: Promote airtime, data bundles, and utility payments with bundles or discounts to reduce over-dependence on retail.
 
