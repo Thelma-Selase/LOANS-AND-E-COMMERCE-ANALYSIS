@@ -1,51 +1,64 @@
 # LOANS-AND-E-COMMERCE-ANALYSIS
 
-### OBJECTIVE
-This project analyzes data from Xente, a Ugandan e-commerce and financial services company, to uncover trends across its offerings, with a particular emphasis on evaluating and enhancing loan performance.
+## OVERVIEW
+Xente is a Ugandan e-commerce and financial services company that provides a platform for individuals and organizations to make and receive payments, shop and pay for goods and services online, and access loans and credit facilities.
+This project seeks to improve the efficiency, profitability, and sustainability of Xente's services, especially loan products. It analyzes loan performance to uncover repayment patterns, default risks, and customer behavior, identifies key trends across Xente’s services, and generates actionable insights to improve loan recovery and support data-driven decision making. 
 
-### TOOLS
-Data Cleaning & EDA - Jupyter Notebook
-Visualization - Power BI
+## Source of data
+Blossom Academy, final project
 
-## Project Workflow
-Source of Data - Kaggle
+## TOOLS
+Microsoft Power Query – Utilized for data cleaning, transformation, and structuring to prepare the dataset for analysis.
 
-### Data cleaning 
+Microsoft Power BI – Employed for exploratory data analysis (EDA) and to create visualizations
 
--The dataset didn't contain any duplicates
+## Data Processing
 
--2 nulls in an ID column were identified and removed
+Duplicate Check – Verified the dataset contained no duplicate records, ensuring data integrity.
 
--Columns were given the right data types 
+Handling Missing Values – Identified and removed 2 null entries in the ID column to maintain consistency and accuracy.
 
-### Data Analysis
+Data Type Optimization – Converted columns to their appropriate data types (e.g., dates, numerical values, categorical fields) to enable accurate analysis and efficient processing.
+
+Feature Engineering (Loan Classification) – Created a new categorical feature to classify loans into Basic, Premium, and Platinum, based on loan amount thresholds, for deeper insights into customer segments and repayment behavior.
+
+Data Validation – Conducted preliminary checks to confirm data consistency, eg, no negative loan values, valid date ranges, and reasonable loan amounts.
+
+## Skills demonstrated
+Data Cleaning and Preparation – handling missing values, correcting inconsistencies, and ensuring data quality for accurate analysis.
+
+Exploratory Data Analysis (EDA) – using descriptive statistics and visualizations to uncover trends, patterns, and anomalies in Xente’s financial and transactional data.
+
+Business and Domain Understanding – framing the analysis around fintech challenges (loan performance, repayments, customer behavior) and aligning insights with Xente’s business model.
+
+Data Visualization – building clear, insightful charts and dashboards to communicate findings effectively.
+
+Insight Generation and Storytelling – translating raw data into meaningful business insights and actionable recommendations for reducing defaults and improving services.
+
+Problem-Solving and Critical Thinking – identifying inefficiencies and proposing solutions to optimize financial services.
+
+## Data Analysis
 
 <img width="593" height="334" alt="Screenshot 2025-08-20 110712" src="https://github.com/user-attachments/assets/b7725139-32d4-465c-9ff4-8d3af8cf631f" />
 
-### Key Insights
 
-#### Revenue Concentration:
+Xente offers 7 e-commerce products to a customer base of 239 and generates 77.45M UGX 
 
-Total Revenue: 77.45M UGX
-
-Retail dominates with 70.12M UGX (~90% of revenue), while other products (airtime, utility bills, data bundles, TV, movies, financial services) contribute minimally.
+Retail dominates with 70.12M UGX (90% of revenue), while other products (airtime, utility bills, data bundles, TV, movies, financial services) contribute minimally.
 
 Airtime is the most frequently purchased service (922 purchases) but generates only 4.26M UGX, showing low unit price but high volume.
 
 Retail has fewer purchases (237) but generates disproportionately high revenue, indicating high-value transactions.
 
-#### Customer Base:
-
-Only 239 customers generated this revenue.
-
-Revenue is heavily skewed: the Top 5 customers contribute ~28% (25M UGX) of total revenue, with one customer (ID 305) alone contributing 10M UGX (~13%).
-
-#### Loan Default Link:
+Revenue is heavily skewed. The Top 5 customers contribute 28% (25M UGX) of total revenue, with one customer (ID 305) alone contributing 10M UGX (13%).
 
 Retail accounts for 85.96% of loan defaults, suggesting a strong link between retail purchases and loan repayment struggles.
 
 
+
 <img width="665" height="371" alt="Screenshot 2025-08-08 211940" src="https://github.com/user-attachments/assets/719595b7-abee-44d4-b3e2-eb5449cb87d9" />
+
+Over a 6-month period, Xente issued 1,483 loans, generating an income of 17.58M UGX. However, 178 of these loans defaulted, leading to a financial loss of 3.25M UGX.
 
 Xente Loans were classified under "Basic", "Premium", and "Platinum". 
 
@@ -57,21 +70,38 @@ Platinum loans - more than 50,000
 
 From the distributions, about 74% of loan takers fall in the basic category, and 96% of these borrowers repay their debt, showing a good performance for basic loans. Defaulters are usually found in the premium and platinum categories, indicating the likelihood of inaccurate/insufficient credit worthiness and behaviour analysis checks in the loan process.
 
-A steady increase in loan activity over the months indicates a regular expansion in customer base. Further investigation is to be made into the unusual peak in the month of February.
+A steady increase in loan activity over the months indicates a regular expansion in customer base, with an unusual peak in the month of February.
 
-A correlation was spotted between loan defaulters and retail services, implying that at least half of retail services users default on their loans. This correlation will be further explored for deeper insights. 
+A correlation is observed between loan defaulters and retail services, implying that at least half of retail services users default on their loans. 
 
-### Areas to Probe
+## Insights
+#### Revenue Concentration in Retail
 
-Why do Premium loans default at such high rates (39%)? Is it due to larger loan sizes, weaker credit assessments, or misuse of funds?
+Retail dominates Xente’s e-commerce portfolio, contributing 90% of total revenue (70.12M UGX) despite only 237 purchases.
 
-Why is retail linked so strongly to defaults? Are customers borrowing for consumption rather than income-generating activities?
+Other products (airtime, utility bills, data bundles, TV, movies, financial services) generate minimal revenue, highlighting low product diversification.
 
-Was the dip in March 2019 loans due to seasonality, tighter credit policies, or reduced customer demand?
+Retail transactions are high-value but low-frequency, while airtime is low-value but high-volume (922 purchases, 4.26M UGX).
 
-### Recommendations
+#### Revenue Dependency on a Few Customers
 
-Diversify Revenue Streams: Promote airtime, data bundles, and utility payments (already high-volume categories) with bundles or discounts to reduce over-dependence on retail.
+Revenue is heavily skewed, with the top 5 customers contributing 28% (25M UGX), and one customer (ID 305) alone contributing 13% (10M UGX).This concentration exposes Xente to revenue risk if key customers churn.
+
+#### Loan Portfolio Performance
+
+In 6 months, Xente issued 1,483 loans, earning 17.58M UGX, but 178 defaults caused a 3.25M UGX loss, which is 18% of loan income.
+
+Loans in the basic category have a strong repayment rate of 96%.
+
+Defaults are concentrated in Premium (10K–50K) and Platinum (>50K) loans, suggesting weaknesses in creditworthiness assessment for higher-value loans.
+
+#### Loans & Retail Linkage
+
+A strong correlation exists between loan defaults and retail services, with 85.96% of defaults tied to retail purchases. This suggests that customers relying on credit for retail transactions may face repayment struggles, increasing credit risk.
+
+## Recommendations
+
+Diversify Revenue Streams: Promote airtime, data bundles, and utility payments with bundles or discounts to reduce over-dependence on retail.
 
 Customer Segmentation: Analyze high-value vs. frequent low-value customers to tailor marketing (e.g., loyalty programs for airtime buyers, premium offers for retail buyers).
 
