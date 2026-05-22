@@ -3,7 +3,8 @@
 ## 📑 TABLE OF CONTENTS  
 
 - [OVERVIEW](#overview)  
-- [DATA SOURCE](#data-source)  
+- [DATA SOURCE](#data-source)
+- [TOOLS](#tools)  
 - [DATA PROCESSING](#data-processing)  
 - [SKILLS DEMONSTRATED](#skills-demonstrated)  
 - [OBJECTIVES/PROBLEM STATEMENT](#objectivesproblem-statement)  
