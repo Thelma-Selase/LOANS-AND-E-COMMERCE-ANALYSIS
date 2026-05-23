@@ -16,6 +16,7 @@
 Xente is a Ugandan e-commerce and financial services company that provides a platform for individuals and organizations to make and receive payments, shop and pay for goods and services online, and access loans and credit facilities.
 This project seeks to improve the efficiency, profitability, and sustainability of Xente's services, especially loan products. It analyzes loan performance to uncover repayment patterns, default risks, and customer behavior, identifies key trends across Xente’s services, and generates actionable insights to improve loan recovery and support data-driven decision making. 
 
+
 ## DATA SOURCE
 Blossom Academy, final project
 
